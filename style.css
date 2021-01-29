@@ -122,3 +122,14 @@ nav ul li a:hover, a.active{
     display: flex;
     justify-content: space-between;
 }
+#mainSection{
+    /* display: none; */
+}
+
+.checkout{
+    display: none;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: white;
+    margin: 10%;
+}

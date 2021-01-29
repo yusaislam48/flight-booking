@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <main>
     <!--Header and Menu Section-->
     <header class="container">
         <nav>
@@ -27,7 +28,7 @@
     </header>
 
     <!--Booking Section-->
-    <main class="main-content container">
+    <section id="mainSection" class="main-content container">
         <div class="booking-form">
             <h3>Booking Flights</h3>
             <div class="input-group">
@@ -97,13 +98,27 @@
                     </div>
                 </div>
             </div>
-            <button class="btn-style">Book Now</button>
+            <button id="bookNow" class="btn-style">Book Now</button>
         </div>
 
         <div class="booking-content">
             <h1>discover <br> around the world</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicingelit. Provident voluptatibus quam fuga laborumalias veniam libero autem quasi maxime ullam vero nama imi dolor, architecto ab facilis eaque deserunt nobise voluptatibus quam</p>
         </div>
+    </section>
+    </main>
+
+    <section class="checkout container" id="checkout">
+        <h3 style="color: tomato;">Hello sir you purchased,</h1>
+            <br>
+        <h1>i. First Class Flight - $150 * <span id="firstClassQty">0</span></h1>
+        <h1>ii. Economy  Class Flight - $100 * <span id="economyClassQty">0</span></h1>
+        <br><br>
+        <h3>Subtotal --- $<span id="subTotalCheckOut">00</span></h3>
+        <h3>Charge 10% VAT --- $<span id="vatCheckOut">00</span></h3>
+        <h3 style="color: red;">Total --- $<span id="totalCheckOut">00</span></h3>
+        <br><br>
+        <h4 style="text-align: center; color: tomato;">Just wanted to say thank you for your purchase. We’re so lucky to have customers like you!</h4>
     </section>
 
     <!--Thank You-->
